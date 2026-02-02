@@ -18,7 +18,7 @@ const {id} = await params;
 
     return (
         <>
-            User Page content {id}
+            User Page content  {id}
         </>
     );
 };

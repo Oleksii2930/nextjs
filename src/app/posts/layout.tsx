@@ -3,15 +3,15 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "ContactsLayout metadata",
+    title: "PostsLayout metadata",
 }
 type Props = {children: React.ReactNode};
-const ContactsLayout = ({children}: Props) => {
+const PostsLayout = ({children}: Props) => {
     return (
         <>
-        {children}
+            {children}
         </>
     );
 };
 
-export default ContactsLayout;
+export default PostsLayout;
