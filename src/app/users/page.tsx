@@ -1,6 +1,9 @@
- const UsersPage = () => {
+import UsersComponent from "@/app/users/UsersComponent";
+
+const UsersPage = () => {
     return (
         <>
+            <UsersComponent/>
             Users Page
         </>
     );
