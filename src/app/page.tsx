@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+
+
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
@@ -59,6 +61,13 @@ export default function Home() {
           >
             Documentation
           </a>
+        </div>
+        <div>
+          <form action="/submit">
+            <input type="text" name={'name'} placeholder={'login'} />
+            <input type="text" name={'password'} />
+            <button>Submit</button>
+          </form>
         </div>
       </main>
     </div>

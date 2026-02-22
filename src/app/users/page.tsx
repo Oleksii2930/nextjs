@@ -4,6 +4,10 @@ const UsersPage = () => {
     return (
         <>
             <UsersComponent/>
+            <form action="/submit">
+                <input type="text" name={'name'} />
+                <button type="submit">Submit</button>
+            </form>
         </>
     );
 };
